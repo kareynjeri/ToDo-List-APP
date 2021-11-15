@@ -1,4 +1,4 @@
-body,html {
+body,html *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -6,12 +6,13 @@ body,html {
 
 header {
     padding-left: 500px;
+    margin-top:30px;
+    margin-bottom: 30px;
 }
 
 .inputContainer{
     display: flex;
     align-items: center;
-    
     justify-content: center;
 }
 
@@ -22,8 +23,6 @@ header {
 }
 
 .addtodoBTN {
-    text-align: center;
-
     background: none;
 }
 
@@ -35,7 +34,6 @@ header {
     height: 300px;
 
 }
-
 
 .todos {
     display: flex;
