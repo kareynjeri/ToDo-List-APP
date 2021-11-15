@@ -1,0 +1,49 @@
+body,html {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding-left: 500px;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.input {
+    height: 40px;
+    outline: none;
+    width: 400px;
+}
+
+.addtodoBTN {
+    text-align: center;
+
+    background: none;
+}
+
+.mainCointaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+}
+
+
+.todos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px rgb(192, 187, 187);
+    width: 400px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+    
+}
