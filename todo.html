@@ -16,43 +16,19 @@
     <section class="main-section">
         <div class="mainCointaner">
 
-            <div class="inputContainer">
-                 <input class="input"  type="text" placeholder="Enter a New ToDo">
-                <button class="addtodoBTN"><i data-feather="plus"></i></button>
-            </div>
+            <form class="inputContainer" id="form">
+                 <input class="input" id="title" type="text" placeholder="Enter a New ToDo">
+                <button id="submit" class="addtodoBTN"><i data-feather="plus"></i></button>
+            </form>
 
-            <div class="todos-Storage">
-
-                <div class="todos">
-                    <h3>Learn React Js <br>15/11/2021 14:30 </h3>
-                    <div class="btnContainer">
-                        <button><i data-feather="delete"></i></button>
-                    </div>
-                </div>
-                <div class="todos">
-                    <h3>Learn React Js <br>15/11/2021 14:30 </h3>
-                    <div class="btnContainer">
-                        <button><i data-feather="delete"></i></button>
-                    </div>
-                </div>
-                <div class="todos">
-                    <h3>Learn React Js <br>15/11/2021 14:30 </h3>
-                    <div class="btnContainer">
-                        <button><i data-feather="delete"></i></button>
-                    </div>
-                </div>
-                <div class="todos">
-                    <h3>Learn React Js <br>15/11/2021 14:30 </h3>
-                    <div class="btnContainer">
-                        <button><i data-feather="delete"></i></button>
-                    </div>
-                </div>
-            </div>
-
+            <div class="todos-Storage" id="todos"></div>
         </div>
     </section>
+
     <script>
         feather.replace()
-      </script> 
+    </script> 
+
+    <script src="todo.js"></script>
 </body>
 </html>
